@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #f2f;
+}
+.navigation li{
+    cursor: pointer;
+}
+
+/* For devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+#home-page{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url("./assets/Desktop_Banner@2x.jpg");
+    background-position: top;
+    width: 100vw; 
+    height: 116vh;
+}
+nav{
+    margin-bottom: 67px; 
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li:not(:first-child) {
+    transform: translate(16px,-21px);
+    margin-right:  2.5%;
+}
+.navigation li a {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+.navigation li:first-child{
+    padding: 30px 0 0 49px;
+}
+
+.navigation li:nth-child(5){
+    padding: 8px 20px;
+    border: 3px solid #f2c508;
+    cursor: pointer;
+}
+.navigation li:nth-child(5):hover{
+    background-color: #f2c508;
+}
+.navigation li:nth-child(5):hover a{
+    color: #000;
+}
+.navigation li:nth-child(2){
+    padding: 10px 0px;
+    border-bottom: 2px solid #f2c508;
+    margin-left: 42%;
+}
+
+.navigation li:last-child{
+    transform: translate(0px,-21px);
+    cursor: pointer;
+}
+.grid-images {
+    padding-left: 155px; 
+}   
+.grid {
+    display: inline-block
+}
+
+.grid-1 {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+.textdec {
+    display: inline-block;
+}
+
+.heading-text{
+    font-size: 78px;
+    color: #fff;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    transform: translate(-13%,0px);
+    font-weight: bold;
+}
+
+.brand{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 3px;
+}
+.exp{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 6px;
+}
+.agency{
+    margin-bottom: 30px;
+}
+
+.recognized-text{
+    font-size: 16px;
+    font-weight: normal;
+    color: #f2f2f2;
+}
+.shopify{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: #fff;
+}
+.shopify-text {
+    font-weight: 600;
+    color: #fff;
+}
+
+.about{
+    position: absolute;
+    top: 300px;
+    left: 67%;
+    transform: translate(0,-10%);
+}
+.about p{
+    color: #fff;
+}
+.about-work{
+    width: 270px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.btn-explore{
+    padding-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+}
+.yellow-line{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508; 
+}
+
+.shopify-expert{
+    padding-right: 20px;
+}
+.shopify-expert-plus{
+    margin-left: 49px;
+    margin-top: 100px;
+}
+}
+/* For devices ( tablets,  and up) */
+@media (min-width: 768px) and (max-width:991px){
+#home-page{
+    background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0)),url("./assets/Desktop_Banner@2x.jpg");
+    background-position: top;
+    width: 100vw; 
+    height: 130vh;
+    background-repeat: no-repeat;
+
+}
+nav{
+    margin-bottom: 67px; 
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li:not(:first-child) {
+    transform: translate(16px,-21px);
+    margin-right:  40px;
+    
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+.navigation li:first-child{
+    padding: 30px 42% 0 49px;
+    
+}
+
+.navigation li:nth-child(5){
+    padding: 8px 20px;
+    border: 3px solid #f2c508;
+    cursor: pointer;
+}
+.navigation li:nth-child(5):hover{
+    background-color: #f2c508;
+}
+.navigation li:nth-child(5):hover a{
+    color: #000;
+}
+.navigation li:nth-child(2){
+    display: none;
+}
+.navigation li:nth-child(3){
+display: none;
+}
+.navigation li:nth-child(4){
+display: none;
+}
+.navigation li:last-child{
+    cursor: pointer;
+}
+.grid-images {
+    padding-left: 155px; 
+}   
+.grid {
+    display: inline-block;
+    transform: translate(-60%,0);
+}
+
+.grid-1 {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+.textdec {
+    display: inline-block;
+}
+
+.heading-text{
+    font-size: 95px;
+    color: #fff;
+    position: absolute;
+    top: 175px;
+    left: 49px;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+.recognized-text{
+    font-size: 14px;
+    font-weight: normal;
+    color: #f2f2f2;
+    margin-top: 260px;
+}
+.shopify{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: #fff;
+}
+.shopify-text {
+    font-weight: 600;
+    color: #fff;
+}
+
+.about{
+    margin-left: 49px;
+    transform: translate(0,-110px);
+
+}
+.about p{
+    color: #fff;
+}
+.about-work{
+    width: 500px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.btn-explore{
+    padding-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+}
+.yellow-line{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508; 
+}
+.lore{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508;   
+}
+
+.shopify-expert{
+    padding-right: 20px;
+}
+.shopify-expert-plus{
+    display: none;
+}  
+}
+
+@media (min-width: 601px) and (max-width:767px){
+.navigation li:first-child{
+    padding: 30px 0 0 49px;
+}
+.navigation li:nth-child(5){
+    display: none;
+}
+.navigation li:last-child{
+    margin-left: 55%;
+}
+
+
+.navigation li:nth-child(5){
+    display: none;
+}
+.navigation li:last-child{
+    position: relative;
+    transform: translate(40%,0);
+}
+ #home-page{
+    background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0)),url("./assets/Desktop_Banner@2x.jpg");
+    background-position: top;
+    width: 100vw; 
+    height: 130vh;
+    background-repeat: no-repeat;
+
+}
+nav{
+    margin-bottom: 67px; 
+    position: absolute;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li:not(:first-child) {
+    transform: translate(16px,-21px);
+    margin-right:  40px;
+    
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+.navigation li:nth-child(2){
+    display: none;
+}
+.navigation li:nth-child(3){
+display: none;
+}
+.navigation li:nth-child(4){
+display: none;
+}
+.grid-images {
+    padding-left: 155px; 
+}   
+.grid {
+    display: inline-block;
+    transform: translate(-60%,0);
+}
+
+.grid-1 {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+.textdec {
+    display: inline-block;
+}
+
+.heading-text{
+    font-size: 95px;
+    color: #fff;
+    position: absolute;
+    top: 175px;
+    left: 49px;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+
+.recognized-text{
+    font-size: 14px;
+    font-weight: normal;
+    color: #f2f2f2;
+    margin-top: 260px;
+}
+.shopify{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: #fff;
+}
+.shopify-text {
+    font-weight: 600;
+    color: #fff;
+}
+
+.about{
+    margin-left: 49px;
+    transform: translate(0,-110px);
+
+}
+.about p{
+    color: #fff;
+}
+.about-work{
+    width: 500px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.btn-explore{
+    padding-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+}
+.yellow-line{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508; 
+}
+.lore{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508;   
+}
+
+.shopify-expert{
+    padding-right: 20px;
+}
+.shopify-expert-plus{
+    display: none;
+}  
+}
+/* For (phones, 600px and up) */
+@media only screen  and (min-width: 200px) and (max-width: 600px) {
+#home-page{
+    background-image: linear-gradient(rgba(0,0,0,0) , rgba(0,0,0,0)),url("./assets/Desktop_Banner@2x.jpg");
+    background-position: center;
+    width: 100vw; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    margin-bottom: 67px; 
+}
+.navigation li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+.navigation li:first-child{
+    padding: 30px 0 0 25px;
+}
+
+.navigation li:nth-child(5){
+    display: none;
+}
+.navigation li:nth-child(5):hover{
+    background-color: #f2c508;
+}
+.navigation li:nth-child(5):hover a{
+    color: #000;
+}
+.navigation li:nth-child(2){
+    display: none;
+}
+.navigation li:nth-child(3){
+display: none;
+}
+.navigation li:nth-child(4){
+display: none;
+}
+.navigation li:last-child{
+    cursor: pointer;
+    transform: translate(0,-20px);
+    margin-left: 23%;
+}
+.grid-images {
+    padding-left: 155px; 
+}   
+.grid {
+    display: none;
+}
+
+.grid-1 {
+    display: none;
+}
+.textdec {
+    display: inline-block;
+}
+
+.heading-text{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 300px;
+    left: 25px;
+    font-weight: bold;
+    line-height: 4rem;
+}
+.brand{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 3px;
+}
+.exp{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 6px;
+}
+.recognized-text{
+    font-size: 14px;
+    font-weight: normal;
+    color: #f2f2f2;
+    margin-top: 30px;
+}
+.shopify{
+    border-bottom: 2px solid #f2c508;
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: #fff;
+}
+.shopify-text {
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.about p{
+    display: none;
+}
+.about-work{
+    width: 500px;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    display: none;
+}
+.btn-explore{
+    padding-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+}
+.yellow-line{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508; 
+}
+.lore{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2c508;   
+}
+
+.shopify-expert{
+    padding-right: 20px;
+}
+.shopify-expert-plus{
+    display: none;
+}    
+}
